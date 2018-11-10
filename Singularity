@@ -1,10 +1,10 @@
 BootStrap: debootstrap
-OSVersion: trusty
+OSVersion: bionic
 MirrorURL: http://us.archive.ubuntu.com/ubuntu/
 
 
 %runscript
-    echo "This is what happens when you run the container..."
+    echo "nothing yet"
 
 
 %post
