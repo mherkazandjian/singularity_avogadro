@@ -4,7 +4,7 @@ MirrorURL: http://us.archive.ubuntu.com/ubuntu/
 
 
 %runscript
-    echo "nothing yet"
+    avogadro
 
 
 %post
@@ -12,4 +12,5 @@ MirrorURL: http://us.archive.ubuntu.com/ubuntu/
     sed -i 's/$/ universe/' /etc/apt/sources.list
     apt-get update
     apt-get -y install vim
+    apt-get -y install avogadro
     apt-get clean
